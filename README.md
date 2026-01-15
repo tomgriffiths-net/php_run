@@ -2,7 +2,7 @@
 This is a package for PHP-CLI that allows php code to be run as a command.
 
 # Usage
-php_run [-bs, -json, -timer, -noend] <php code>
+php_run [-bs, -json, -timer, -noend] somePHPCode()
 
 # Options
 - **bs**: Escapes backslashes in the command, e.g. so you dont have to type \\\\ in file paths.
